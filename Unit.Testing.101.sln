@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit.Testing.101", "Unit.Testing.101.csproj", "{9E82F93C-148A-4622-AD87-A749B09C9DF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit.Test.101.Tests", "..\Unit.Test.101.Tests\Unit.Test.101.Tests.csproj", "{F55FEFF6-7EB4-4DD6-B42D-2EB037908048}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit.Test.101.Tests", "Unit.Test.101.Tests\Unit.Test.101.Tests.csproj", "{F55FEFF6-7EB4-4DD6-B42D-2EB037908048}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
