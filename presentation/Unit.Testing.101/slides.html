@@ -1,0 +1,163 @@
+<html>
+<head>
+	<title>Unit Testing 101</title>
+	<link rel="stylesheet" href="css/uberdocs.css">
+	<link rel="stylesheet" href="css/topbar.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/slides.css">
+</head>
+<body>
+	<div class="topbar">
+	      <a href="#" class="brand">Unit Testing 101</a>
+	      <ul class="nav" id="navigation">
+	        <li><button id="next">Next</button></li>
+	   		<li><button id="prev">Prev</button></li>
+	      </ul>
+	</div>
+
+	<div class="slides">
+		<div class="slide">
+			<div class="left">
+				<div class="header">
+					<h1 class="project-name">The Basics of Unit Testing</h1>
+					<h2 class="project-version">1.0</h2>
+					<br>
+					<p>Reviewing the very basics of Unit Testing.</p>
+				</div>
+				<ol class="agenda"></ol>
+			</div>
+			<div class="right">
+				<div class="content">
+				  	<blockquote>
+				  		<p class="right-text">A <span class="italics">unit test</span> is a piece of code, usually a method, that invokes another piece of code and checks the correctness of some assumptions afterwards. If the assumptions turn out to be wrong, the unit test has failed.</p>
+				  		<span class="author">Rob Osherove</span>
+				  	</blockquote>
+
+				  </div>  
+			</div>
+		</div>	
+
+		<div class="slide">
+			<div class="left">
+				<div class="header">
+					<h1 class="project-name">Properties of a Good Unit Test</h1>
+				</div>
+			</div>
+			<div class="right">
+				<div class="content centered">
+					<ul class="left-text">
+						<li>It should be automated and repeatable.</li>
+						<li>It should be easy to implement.</li>
+						<li>Once it's written, it should remain for future use.</li>
+						<li>Anyone should be able to run it.</li>
+						<li>It should run at the push of a button.</li>
+						<li>It should run quickly.</li>
+					</ul>
+				</div>
+				<div class="content centered">
+					<blockquote>
+					  	<ol class="left-text">
+							<li>Write a failing test to prove code or functionality is <span class="italics">missing</span> from the end product.</li>
+							<li>Make a test pass by writing production code that meets the expectations of your test.</li>
+							<li>Refactor your Code.</li>
+						</ol>	
+				  		<span class="author"><span class="italics">Test Driven Development</span></span>
+				  	</blockquote>
+				</div>
+			</div>
+		</div>
+
+		<div class="slide">
+			<div class="left">
+				<div class="header">
+					<h1 class="project-name">Some Practical Advice</h1>
+				</div>
+			</div>
+			<div class="right">
+				<div class="content">
+					<ol class="left-text">
+						<li>Make each test <span class="enfasis">orthogonal</span>, independent, to all others.</li>
+						<li>Don't Make <span class="enfasis">unnecessary assertions.</span></li>
+						<li>Test only <span class="enfasis">one code unit</span> at a time.</li>
+						<li>Mock out <span class="enfasis">all external services and state</span>.</li>
+						<li>Avoid <span class="enfasis">unnecessary preconditions</span>.</li>
+						<li>Don't Unit Test <span class="enfasis">configuration settings</span>.</li>
+						<li>Name your unit tests <span class="enfasis">clearly and consistently</span>.
+							<ul>
+								<li>
+									<p>
+										<span class="enfasis">Project =></span>
+										Create a test project named <span class="enfasis">[ProjectUnderTest].Tests</span>
+									</p>
+								</li>
+								
+								<li>
+									<p>
+										<span class="enfasis">Class =></span>
+										For each class, create at least one class with the name <span class="enfasis">[ClassName]<span class="underline">Tests</span></span>
+									</p>
+								</li>
+								<li>
+									<span class="enfasis">Method =></span>
+									<p>
+										For each method, create at least one test method with the following name: <span class="enfasis">[MethodName]_[StateUnderTest]_[ExpectedBehavior]</span>
+									</p>
+								</li>
+							</ul>
+						</li>
+					</ol>
+				</div>
+			</div>
+		</div>	
+
+		<div class="slide">
+			<div class="left">
+				<div class="header">
+					<h1 class="project-name">Some Conclusions</h1>
+				</div>
+			</div>
+			<div class="right">
+				<div class="content">
+					<ol class="left-text">
+						<li>Your project's unit tests <span class="enfasis">document your design</span>.</li>
+						<li>Your project's unit tests makes it easier <span class="enfasis">to refactor and expand your code.</span></li>
+						<li>Each test contains <span class="enfasis">a lot of knowledge</span> about the behavior of a sngle unit of code.</li>
+						<li>The unit tests are <span class="enfasis">a design tool</span>.</li>
+						<li>Read <span class="enfasis">The Art of Unit Testing</span> by <span class="enfasis">Rob Osherove</span></li>
+					</ol>
+				</div>
+			</div>
+		</div>
+
+		<div class="slide">
+			<div class="left">
+				<div class="header">
+					<h1 class="project-name">Questions</h1>
+				</div>
+			</div>
+			<div class="right">
+				<div class="content">
+					<span class="bye">No? OK, get out then...</span>
+
+					<blockquote>
+						<p class="movie-dialog">
+							<span class="enfasis">Neo</span>
+							: I know Kung fu...
+						</p>
+						<p class="movie-dialog">
+							<span class="enfasis">Mopheus</span>
+							: Show me...
+						</p>
+						<span class="author">The Matrix (1999)</span>
+					</blockquote>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.scrollTo-min.js"></script>
+<script type="text/javascript" src="js/jquery.jkey.js"></script>
+<script type="text/javascript" src="js/slides.js"></script>
+
+</html>

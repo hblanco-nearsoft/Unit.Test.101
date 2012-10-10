@@ -6,5 +6,3 @@ C:\Users\hblanco\Documents\Projects\Nearsoft\Unit.Testing.101\bin\Debug\RestShar
 C:\Users\hblanco\Documents\Projects\Nearsoft\Unit.Testing.101\bin\Debug\RestSharp.xml
 C:\Users\hblanco\Documents\Projects\Nearsoft\Unit.Testing.101\obj\Debug\Unit.Testing.101.exe
 C:\Users\hblanco\Documents\Projects\Nearsoft\Unit.Testing.101\obj\Debug\Unit.Testing.101.pdb
-C:\Users\hblanco\Documents\Projects\Nearsoft\Unit.Testing.101\bin\Debug\NSubstitute.dll
-C:\Users\hblanco\Documents\Projects\Nearsoft\Unit.Testing.101\bin\Debug\NSubstitute.xml

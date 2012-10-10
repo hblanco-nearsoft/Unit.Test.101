@@ -1,0 +1,173 @@
+body {
+	font-family: "Museo300", sans-serif !important;
+	height: 100%;
+	overflow: hidden;
+}
+
+ul.nav > li > button {
+	-moz-box-shadow: 0px 1px 0px -50px #ffffff;
+	-webkit-box-shadow: 0px 1px 0px -50px #ffffff;
+	box-shadow: 0px 1px 0px -50px #ffffff;
+	background-color:transparent;
+	border:1px solid #3C4764;
+	display:inline-block;
+	color:white;
+	font-family: "Museo300", sans-serif !important;
+	font-size:17px;
+	height: 38px;
+	padding:10px 31px;
+}ul.nav > li > button:active {
+	position:relative;
+	top:1px;
+}
+
+div.slides{
+	height: 800px;
+	width: 1024px;	
+}
+
+ol.agenda {
+	margin-left: 20px;
+}
+
+div.slide{
+	height: 1000px;
+}
+
+div.slides > div.slide > div.left{
+	background-color: #D3DEF7;
+	background-image: url('../css/img/main-background-noise.png');
+	border-right: solid #9AC 1px;
+	float: left;
+	margin: 0px;	
+	padding-left: 55px;
+	width: 30%;
+	padding-right: 20px;
+	vertical-align: top;
+	height: 100%;
+}
+
+div.slides > div.slide > div.right {
+	background-color: #F5F5FF;
+	float: right;
+	border: none;
+	padding-left: 20px;
+	width: 60%;
+	font-size: 16pt;
+	vertical-align: middle;
+	height: 100%; 
+	text-align: center;
+}
+
+
+div.slides > div.slide > div.right > div.content > img {
+	background-color: #D3DEF7;
+	background-image: url('../css/img/main-background-noise.png');
+	width: 100%;
+}
+
+span.blank{
+	clear: both;
+	display: inline-block;
+	margin-top: 15px;
+}
+
+div.slides.blank, div.slide.blank, div.left.blank, div.right.blank{
+	height: 100% !important;
+}
+
+div.content {
+	padding-top: 50px;
+}
+
+.centered {
+	text-align: center;
+}
+
+.enfasis{
+	font-size: 20pt;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.left-text{
+	text-align: left;
+}
+
+.right-text{
+	text-align: right;
+}
+
+ul.left-text > li, ol.left-text > li {
+	margin: 10px;
+}
+
+table {
+	border: black solid 1px;
+	margin-top: 20px;
+}
+
+table > tbody > tr, table > thead > tr {
+	border-right: black solid 1px;
+}
+
+
+blockquote{
+	background: url('../img/quote.png') no-repeat;
+}
+
+blockquote > p {
+	margin-left: 30px;
+	width:300px;
+}
+
+blockquote > span.author{
+	border-top: 1px solid #3C4764;
+	display: inline-block;
+	float: right;
+	text-align: right;
+	width: 200px;
+}
+
+.italics {
+	font-style: italic;
+}
+
+.bye{
+	display: inline-block;
+	font-size: 42px;
+	font-weight: bolder;
+	margin: 120px;
+}
+
+.movie-dialog {
+	text-align: left;
+	width: 350px;
+}
+
+.movie-dialog > span.enfasis{
+	text-align: right;
+	width: 100px;
+}
+
+/*** Clear Fix ***/
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}

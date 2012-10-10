@@ -18,3 +18,5 @@ C:\Users\hblanco\Documents\Projects\Nearsoft\Unit.Testing.101\Unit.Test.101.Test
 C:\Users\hblanco\Documents\Projects\Nearsoft\Unit.Testing.101\Unit.Test.101.Tests\obj\Debug\Unit.Test.101.Tests.csprojResolveAssemblyReference.cache
 C:\Users\hblanco\Documents\Projects\Nearsoft\Unit.Testing.101\Unit.Test.101.Tests\obj\Debug\Unit.Test.101.Tests.dll
 C:\Users\hblanco\Documents\Projects\Nearsoft\Unit.Testing.101\Unit.Test.101.Tests\obj\Debug\Unit.Test.101.Tests.pdb
+C:\Users\hblanco\Documents\Projects\Nearsoft\Unit.Testing.101\Unit.Test.101.Tests\bin\Debug\NSubstitute.dll
+C:\Users\hblanco\Documents\Projects\Nearsoft\Unit.Testing.101\Unit.Test.101.Tests\bin\Debug\NSubstitute.xml

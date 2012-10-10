@@ -15,8 +15,6 @@ namespace Unit.Testing._101
         }
     }
 
-
-
     public class NumbersClient
     {
         public enum NumbersType
@@ -27,18 +25,27 @@ namespace Unit.Testing._101
             Year
         }
 
-
-        public string GetRandomFact()
+        public NumbersClient()
         {
-            var numbers = new RestClient("http://numbersapi.com/");
+            factory = new NumbersAdapterFactory();
+        }
+
+        public NumbersClient(INumbersAdapterFactory customFactory)
+        {
+            factory = customFactory;
+        }
+
+        private INumbersAdapterFactory factory; 
+        public string GetRandomFact()
+        {    
+            INumberAdapter adapter = factory.Create(0);
             var request = new RestRequest("{type}/{number}", Method.GET);
 
             request.RequestFormat = DataFormat.Json;
             request.AddUrlSegment("number", NumbersType.Date.GetString());
             request.AddUrlSegment("type", "random");
 
-            var resp = numbers.Execute(request);
-            var content = resp.Content;
+            var content = adapter.Execute(request);
 
             return content;
         }
